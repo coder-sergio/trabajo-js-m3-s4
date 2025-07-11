@@ -1,0 +1,76 @@
+/* Fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; 
+    color: ffffff; 
+    padding: 40px;
+}
+
+/* Título */
+h2 {
+    color: #0f0f0f; 
+    text-align: center;
+}
+
+/* Formulario */
+form {
+    background-color: #949499; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*Etiquetas y campos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+input {
+    width: 95%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #837f7f;
+}
+
+/* Botones */
+button {
+    width: 48%;
+    padding: 10px;
+    margin-right: 2%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: auto;
+    transition: transform 0.6s, opacity 0.2s;
+}
+
+#saveButton {
+    background-color: #2be243; 
+    color: white;
+}
+
+#clearButton {
+    background-color: #f81707; 
+    color: white;
+}
+
+/* Botones hover */
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* Output y contador */
+#output, #interactionCount {
+    text-align: center;
+    margin-top: 40px;
+    color: #333335;
+}
